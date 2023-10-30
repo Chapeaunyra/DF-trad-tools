@@ -30,14 +30,14 @@ Si vous avez une connaissance avancée du jeu et des données que vous souhaitez
 
 ### Script 1 - Extraction de données depuis un dossier du jeu
 ```shell
-python DF_retrieve_name_and_desc_v2.py "Chemin/Vers/Le/Dossier/De/Traduction"
+py DF_retrieve_name_and_desc_v2.py "Chemin/Vers/Le/Dossier/De/Traduction"
 ```
 Cela exécutera le script 1 pour extraire les données à partir du dossier spécifié et générer un fichier JSON nommé d'après le dossier.
 
 
 ### Script 2 - Extraction de données depuis un dossier parent
 ```shell
-python DF_retrieve_name_and_desc_v3.py "Chemin/Vers/Le/Dossier/Parent"
+py DF_retrieve_name_and_desc_v3.py "Chemin/Vers/Le/Dossier/Parent"
 ```
 Ce script parcourra tous les sous-dossiers du dossier parent à la recherche de données. Il générera un fichier JSON à partir des données collectées, en utilisant le nom du dernier sous-dossier trouvé comme nom de fichier.
 
