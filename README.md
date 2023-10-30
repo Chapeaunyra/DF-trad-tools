@@ -1,7 +1,3 @@
-Bien sûr ! Voici le même texte au format Markdown :
-
-markdown
-
 # Scripts d'extraction de données depuis Dwarf Fortress
 
 ## Introduction
